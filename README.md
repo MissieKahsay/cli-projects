@@ -37,8 +37,8 @@ These apps go beyond tutorials by applying JavaScript in real-life scenarios —
 
 ## 🧪 How to Run
 
-``cd project-folder
-\nnode index.js ``
+``cd project-folder``
+``node index.js ``
 
 ## ✅ Continuous Integration
 
