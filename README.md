@@ -37,27 +37,26 @@ These apps go beyond tutorials by applying JavaScript in real-life scenarios —
 
 ## 🧪 How to Run
 
-```bash
-cd project-folder
-node index.js
+``cd project-folder
+node index.js ``
 
+## ✅ Continuous Integration
 
-✅ Continuous Integration
+Every push is automatically syntax-checked using **GitHub Actions** and **Node.js 18**, ensuring code quality and deploy-readiness.
 
+---
 
-Every push is automatically syntax-checked using GitHub Actions and Node.js 18, ensuring code quality and deploy-readiness.
+## 📌 Skills Demonstrated
 
-- 📌 Skills Demonstrated
-JavaScript fundamentals (ES6+)
+- JavaScript fundamentals (ES6+)
+- Node.js CLI with `readline`
+- Input validation and control flow
+- Project structuring
+- Git + GitHub Actions (CI/CD basics)
 
-Node.js CLI with readline
+---
 
-Input validation and control flow
+## 👨‍💻 Author
 
-Project structuring
-
-Git + GitHub Actions (CI/CD basics)
-
-👨‍💻 Author
-Missie Kahsay
+**Missie Kahsay**  
 📍 Houston, TX
