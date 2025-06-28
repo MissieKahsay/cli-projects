@@ -1,4 +1,4 @@
-# 🚀 Node.js CLI Projects by Missie Kahsay
+# 🚀 Core JS && Node.js CLI Projects
 
 A collection of beginner-to-intermediate **Node.js command-line applications** focused on building core JavaScript skills through practical, interactive tools.
 
@@ -29,12 +29,6 @@ A basic banking CLI that lets you check balance, deposit, withdraw, and exit saf
 
 ---
 
-## 🧠 Why These Projects Matter
-
-These apps go beyond tutorials by applying JavaScript in real-life scenarios — no frameworks, no libraries, just **pure logic** using `Node.js` and the terminal. This builds the foundational thinking recruiters look for in junior developers.
-
----
-
 ## 🧪 How to Run
 
 ``cd project-folder``
@@ -46,7 +40,7 @@ Every push is automatically syntax-checked using **GitHub Actions** and **Node.j
 
 ---
 
-## 📌 Skills Demonstrated
+## 📌 Skills Demonstrateds
 
 - JavaScript fundamentals (ES6+)
 - Node.js CLI with `readline`
