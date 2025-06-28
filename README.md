@@ -1,4 +1,4 @@
-# 🚀 Core JS && Node.js CLI Projects
+# 🚀 Core JS & Node.js CLI Projects
 
 A collection of beginner-to-intermediate **Node.js command-line applications** focused on building core JavaScript skills through practical, interactive tools.
 
