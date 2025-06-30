@@ -1,4 +1,4 @@
-# 🚀 Node.js CLI Projects
+# 🚀 Node.js CLI Projects by Missie Kahsay
 
 A collection of beginner-to-intermediate **Node.js command-line applications** focused on building core JavaScript skills through practical, interactive tools.
 
@@ -43,7 +43,7 @@ Every push is automatically syntax-checked using **GitHub Actions** and **Node.j
 
 ---
 
-## 📌 Skills Demonstrated
+## 📌 Skills Demonstrateds
 
 - JavaScript fundamentals (ES6+)
 - Node.js CLI with `readline`
