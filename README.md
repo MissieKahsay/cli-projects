@@ -1,59 +1,247 @@
-# 🚀 Node.js CLI Projects by Missie Kahsay
+# ✅ JavaScript Cheat Sheet
 
-A collection of beginner-to-intermediate **Node.js command-line applications** focused on building core JavaScript skills through practical, interactive tools.
-
-Each project in this repository is designed to reinforce a specific area of JavaScript: input handling, conditionals, loops, validation, functions, and real-world logic — all written in clean, beginner-friendly style.
+A clean and simple reference to all core JavaScript concepts you've learned.
 
 ---
 
-## 📂 Projects
+## 📌 Console
 
-### 🔹 1. Greeting Bot
-
-A friendly bot that asks for your name, age, and favorite food — then responds with a playful greeting.
-
-- 📌 Concepts: `readline`, input validation, string formatting, type conversion
+```js
+console.log("Hello"); // Output to console
+```
 
 ---
 
-### 🔹 2. Quiz App
+## 📌 Data Types
 
-A 3-question quiz that tracks score and responds based on your answers. Supports multiple correct formats (e.g., letter or full word).
-
-- 📌 Concepts: Arrays, conditionals, score tracking, loops, input normalization
-
----
-
-### 🔹 3. ATM Simulator
-
-A basic banking CLI that lets you check balance, deposit, withdraw, and exit safely — with all logic handled dynamically.
-
-- 📌 Concepts: Loops, numeric validation, state management, menu systems
+```js
+let str = "Text"; // String
+let num = 42; // Number
+let bool = true; // Boolean
+let nothing = null; // Null
+let notDefined; // Undefined
+```
 
 ---
 
-## 🧪 How to Run
+## 📌 Variables
 
-`cd project-folder`
-`node index.js `
-
-## ✅ Continuous Integration
-
-Every push is automatically syntax-checked using **GitHub Actions** and **Node.js 18**, ensuring code quality and deploy-readiness.
-
----
-
-## 📌 Skills Demonstrateds
-
-- JavaScript fundamentals (ES6+)
-- Node.js CLI with `readline`
-- Input validation and control flow
-- Project structuring
-- Git + GitHub Actions (CI/CD basics)
+```js
+let a = 1; // Block scoped, reassignable
+const b = 2; // Block scoped, not reassignable
+var c = 3; // Function scoped (avoid using)
+```
 
 ---
 
-## 👨‍💻 Author
+## 📌 Operators
 
-**Missie Kahsay**  
-📍 Houston, TX
+```js
++ - * / %    // Arithmetic
+=== !== ==   // Comparison (strict vs loose)
+&& || !      // Logical (and, or, not)
+```
+
+---
+
+## 📌 Conditionals
+
+```js
+if (a > 5) {
+  console.log("Big");
+} else if (a === 5) {
+  console.log("Medium");
+} else {
+  console.log("Small");
+}
+```
+
+---
+
+## 📌 Ternary Operator
+
+```js
+let result = a > 10 ? "Big" : "Small";
+```
+
+---
+
+## 📌 Switch
+
+```js
+switch (value) {
+  case "A":
+    console.log("A");
+    break;
+  default:
+    console.log("Other");
+}
+```
+
+---
+
+## 📌 Functions
+
+```js
+function greet(name) {
+  return "Hi " + name;
+}
+
+const square = (n) => n * n; // Arrow function
+```
+
+---
+
+## 📌 Arrays
+
+```js
+const fruits = ["apple", "banana"];
+fruits.push("mango"); // Add to end
+fruits.pop(); // Remove last
+fruits[0]; // Access by index
+fruits.length; // Get size
+```
+
+---
+
+## 📌 Looping Arrays
+
+```js
+for (let i = 0; i < arr.length; i++) {...}
+for (let item of arr) {...}
+arr.forEach(item => {...});
+```
+
+---
+
+## 📌 Array Methods
+
+```js
+arr.map((x) => x * 2); // Returns new array
+arr.filter((x) => x > 10); // Filters values
+arr.reduce((a, b) => a + b, 0); // Combines to one
+```
+
+---
+
+## 📌 Objects
+
+```js
+const user = {
+  name: "Missie",
+  age: 30,
+};
+
+user.name; // Access
+user["age"]; // Alternate access
+user.job = "dev"; // Add property
+delete user.age; // Remove
+```
+
+---
+
+## 📌 Object Methods & `this`
+
+```js
+const person = {
+  name: "Missie",
+  greet() {
+    console.log(`Hi, I'm ${this.name}`);
+  },
+};
+```
+
+---
+
+## 📌 Classes & Constructors
+
+```js
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+  bark() {
+    console.log(`${this.name} barks`);
+  }
+}
+
+const myDog = new Dog("Rex");
+myDog.bark();
+```
+
+---
+
+## 📌 Inheritance & `super`
+
+```js
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Cat extends Animal {
+  constructor(name, breed) {
+    super(name);
+    this.breed = breed;
+  }
+}
+```
+
+---
+
+## 📌 Promises
+
+```js
+const p = new Promise((resolve, reject) => {
+  resolve("Done!");
+});
+
+p.then((res) => console.log(res)).catch((err) => console.log(err));
+```
+
+---
+
+## 📌 Async / Await
+
+```js
+async function getData() {
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+    console.log(data);
+  } catch (err) {
+    console.log(err);
+  }
+}
+```
+
+---
+
+## 📌 DOM Access (Browser Only)
+
+```js
+document.getElementById("btn").textContent = "Clicked!";
+document.querySelector("p").style.color = "red";
+```
+
+---
+
+## 📌 Event Listener
+
+```js
+btn.addEventListener("click", () => {
+  alert("Button clicked");
+});
+```
+
+---
+
+## 📌 Fetch API
+
+```js
+fetch("https://api.example.com")
+  .then((res) => res.json())
+  .then((data) => console.log(data))
+  .catch((err) => console.error(err));
+```
