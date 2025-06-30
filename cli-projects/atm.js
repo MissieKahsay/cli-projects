@@ -1,8 +1,8 @@
-const readline = require('readline');
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const correctPin = "1234"; // You can change this
@@ -21,7 +21,9 @@ function askForPin() {
         console.log("❌ Too many failed attempts. Your account is locked.");
         rl.close();
       } else {
-        console.log(`🚫 Incorrect PIN. Attempts left: ${maxAttempts - attempts}\n`);
+        console.log(
+          `🚫 Incorrect PIN. Attempts left: ${maxAttempts - attempts}\n`
+        );
         askForPin();
       }
     }
@@ -70,7 +72,9 @@ function deposit() {
       return deposit();
     }
     balance += num;
-    console.log(`✅ $${num} deposited successfully.\n💰 New balance: $${balance}`);
+    console.log(
+      `✅ $${num} deposited successfully.\n💰 New balance: $${balance}`
+    );
     showMenu();
   });
 }
@@ -86,7 +90,9 @@ function withdraw() {
       console.log(`🚫 Insufficient funds. You only have $${balance}.`);
     } else {
       balance -= num;
-      console.log(`✅ $${num} withdrawn successfully.\n💰 Remaining balance: $${balance}`);
+      console.log(
+        `✅ $${num} withdrawn successfully.\n💰 Remaining balance: $${balance}`
+      );
     }
     showMenu();
   });

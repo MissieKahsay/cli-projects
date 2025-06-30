@@ -1,15 +1,15 @@
-const readline = require('readline');
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const users = [
   { username: "missie", password: "secret123" },
   { username: "jessica", password: "queen123" },
   { username: "admin", password: "adminpass" },
-  { username: "rick", password: "8656" }
+  { username: "rick", password: "8656" },
 ];
 
 let attempts = 0;
@@ -18,7 +18,7 @@ const maxAttempts = 3;
 function login() {
   rl.question("Enter your username: ", (nameInput) => {
     const name = nameInput.trim().toLowerCase();
-    const user = users.find(u => u.username === name);
+    const user = users.find((u) => u.username === name);
 
     if (!user) {
       console.log("Unknown username, please try again.");
