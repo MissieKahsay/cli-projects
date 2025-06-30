@@ -1,8 +1,4 @@
-# ✅ JavaScript Cheat Sheet
-
-A clean and simple reference to all core JavaScript concepts you've learned.
-
----
+# ✅ JavaScript
 
 ## 📌 Console
 
