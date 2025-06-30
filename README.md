@@ -1,4 +1,4 @@
-# 🚀 Node.js CLI Projects by Missie Kahsay
+# 🚀 Node.js CLI Projects
 
 A collection of beginner-to-intermediate **Node.js command-line applications** focused on building core JavaScript skills through practical, interactive tools.
 
@@ -9,6 +9,7 @@ Each project in this repository is designed to reinforce a specific area of Java
 ## 📂 Projects
 
 ### 🔹 1. Greeting Bot
+
 A friendly bot that asks for your name, age, and favorite food — then responds with a playful greeting.
 
 - 📌 Concepts: `readline`, input validation, string formatting, type conversion
@@ -16,6 +17,7 @@ A friendly bot that asks for your name, age, and favorite food — then responds
 ---
 
 ### 🔹 2. Quiz App
+
 A 3-question quiz that tracks score and responds based on your answers. Supports multiple correct formats (e.g., letter or full word).
 
 - 📌 Concepts: Arrays, conditionals, score tracking, loops, input normalization
@@ -23,22 +25,17 @@ A 3-question quiz that tracks score and responds based on your answers. Supports
 ---
 
 ### 🔹 3. ATM Simulator
+
 A basic banking CLI that lets you check balance, deposit, withdraw, and exit safely — with all logic handled dynamically.
 
 - 📌 Concepts: Loops, numeric validation, state management, menu systems
 
 ---
 
-## 🧠 Why These Projects Matter
-
-These apps go beyond tutorials by applying JavaScript in real-life scenarios — no frameworks, no libraries, just **pure logic** using `Node.js` and the terminal. This builds the foundational thinking recruiters look for in junior developers.
-
----
-
 ## 🧪 How to Run
 
-``cd project-folder``
-``node index.js ``
+`cd project-folder`
+`node index.js `
 
 ## ✅ Continuous Integration
 
